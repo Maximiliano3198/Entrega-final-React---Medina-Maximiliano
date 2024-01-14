@@ -2,7 +2,7 @@ import React from 'react'
 
 const Error = () => {
   return (
-    <div>Error</div>
+    <div>La direccion seleccionada no es valida</div>
   )
 }
 
