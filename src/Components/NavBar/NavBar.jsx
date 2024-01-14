@@ -22,7 +22,7 @@ const NavBar = () => {
     <Navbar bg="primary" variant="dark">
         <Container style={estiloContainer}>
             <Link to="" style={estiloLogo}>
-                <img src="../../../public/pngwing.com.png" style={estiloLogo} alt="" />
+                <img src="/pngwing.com.png" style={estiloLogo} alt="" />
             </Link>
             <Nav className='me-auto'>
                 <Link to="/" className='nav-link' activeclassname="active">Tienda</Link>
