@@ -32,7 +32,7 @@ const CartWidget = () => {
             <span className="badge rounded-pill bg-danger" style={estiloContador}>
                 {totalProducts() || cart}
             </span>
-            <img style={estiloCarrito} src='./sack.png' alt="Carrito" />
+            <img style={estiloCarrito} src='../../../public/sack.png' alt="Carrito" />
         </button>
     );
 };
