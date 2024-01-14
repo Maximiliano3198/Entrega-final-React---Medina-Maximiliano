@@ -15,7 +15,7 @@ const ItemDetail = ({ producto }) => {
 
     return (
         <div className="d-flex align-items-center justify-content-center flex-wrap bg-success">
-            <Card className="mt-1 mb-5" style={{ width: '35rem' }} >
+            <Card className="mt-2 mb-5" style={{ width: '35rem' }} >
                 <Card.Img variant="top" src={producto.img} style={{ width: '300px', height: '300px', objectFit: 'cover', display: 'block',
     margin: 'auto', }} />
                 <Card.Body >
