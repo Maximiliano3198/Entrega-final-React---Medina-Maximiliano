@@ -54,7 +54,7 @@ const CheckOut = () => {
                 const stockActual = productoDoc.data().stock;
 
                 await updateDoc(productoRef, {
-                    stock: stockActual - productoOrden.cantidad,
+                    stock: stockActual - productoOrden.quantity,
                 });
             })
         )
